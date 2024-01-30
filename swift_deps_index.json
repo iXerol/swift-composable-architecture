@@ -1,0 +1,1009 @@
+{
+  "direct_dep_identities": [
+    "combine-schedulers",
+    "swift-benchmark",
+    "swift-case-paths",
+    "swift-collections",
+    "swift-concurrency-extras",
+    "swift-custom-dump",
+    "swift-dependencies",
+    "swift-docc-plugin",
+    "swift-identified-collections",
+    "swift-macro-testing",
+    "swift-syntax",
+    "swiftui-navigation",
+    "xctest-dynamic-overlay"
+  ],
+  "modules": [
+    {
+      "name": "CombineSchedulers",
+      "c99name": "CombineSchedulers",
+      "src_type": "swift",
+      "label": "@swiftpkg_combine_schedulers//:Sources_CombineSchedulers",
+      "modulemap_label": "@swiftpkg_combine_schedulers//:Sources_CombineSchedulers_modulemap",
+      "package_identity": "combine-schedulers",
+      "product_memberships": [
+        "CombineSchedulers"
+      ]
+    },
+    {
+      "name": "GenerateManual",
+      "c99name": "GenerateManual",
+      "src_type": "unknown",
+      "label": "@swiftpkg_swift_argument_parser//:Plugins_GenerateManual",
+      "package_identity": "swift-argument-parser",
+      "product_memberships": [
+        "GenerateManual"
+      ]
+    },
+    {
+      "name": "ArgumentParser",
+      "c99name": "ArgumentParser",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_argument_parser//:Sources_ArgumentParser",
+      "package_identity": "swift-argument-parser",
+      "product_memberships": [
+        "ArgumentParser",
+        "GenerateManual"
+      ]
+    },
+    {
+      "name": "ArgumentParserToolInfo",
+      "c99name": "ArgumentParserToolInfo",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_argument_parser//:Sources_ArgumentParserToolInfo",
+      "package_identity": "swift-argument-parser",
+      "product_memberships": [
+        "ArgumentParser",
+        "GenerateManual"
+      ]
+    },
+    {
+      "name": "generate-manual",
+      "c99name": "generate_manual",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_argument_parser//:Tools_generate-manual",
+      "package_identity": "swift-argument-parser",
+      "product_memberships": [
+        "GenerateManual"
+      ]
+    },
+    {
+      "name": "Benchmark",
+      "c99name": "Benchmark",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_benchmark//:Sources_Benchmark",
+      "package_identity": "swift-benchmark",
+      "product_memberships": [
+        "Benchmark"
+      ]
+    },
+    {
+      "name": "CasePaths",
+      "c99name": "CasePaths",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_case_paths//:Sources_CasePaths",
+      "package_identity": "swift-case-paths",
+      "product_memberships": [
+        "CasePaths"
+      ]
+    },
+    {
+      "name": "CasePathsMacros",
+      "c99name": "CasePathsMacros",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_case_paths//:Sources_CasePathsMacros",
+      "package_identity": "swift-case-paths",
+      "product_memberships": [
+        "CasePaths"
+      ]
+    },
+    {
+      "name": "Clocks",
+      "c99name": "Clocks",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_clocks//:Sources_Clocks",
+      "package_identity": "swift-clocks",
+      "product_memberships": [
+        "Clocks"
+      ]
+    },
+    {
+      "name": "Collections",
+      "c99name": "Collections",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_collections//:Sources_Collections",
+      "package_identity": "swift-collections",
+      "product_memberships": [
+        "Collections"
+      ]
+    },
+    {
+      "name": "DequeModule",
+      "c99name": "DequeModule",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_collections//:Sources_DequeModule",
+      "package_identity": "swift-collections",
+      "product_memberships": [
+        "Collections",
+        "DequeModule"
+      ]
+    },
+    {
+      "name": "OrderedCollections",
+      "c99name": "OrderedCollections",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_collections//:Sources_OrderedCollections",
+      "package_identity": "swift-collections",
+      "product_memberships": [
+        "Collections",
+        "OrderedCollections"
+      ]
+    },
+    {
+      "name": "ConcurrencyExtras",
+      "c99name": "ConcurrencyExtras",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_concurrency_extras//:Sources_ConcurrencyExtras",
+      "package_identity": "swift-concurrency-extras",
+      "product_memberships": [
+        "ConcurrencyExtras"
+      ]
+    },
+    {
+      "name": "CustomDump",
+      "c99name": "CustomDump",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_custom_dump//:Sources_CustomDump",
+      "package_identity": "swift-custom-dump",
+      "product_memberships": [
+        "CustomDump"
+      ]
+    },
+    {
+      "name": "Dependencies",
+      "c99name": "Dependencies",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_dependencies//:Sources_Dependencies",
+      "package_identity": "swift-dependencies",
+      "product_memberships": [
+        "Dependencies"
+      ]
+    },
+    {
+      "name": "DependenciesMacros",
+      "c99name": "DependenciesMacros",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_dependencies//:Sources_DependenciesMacros",
+      "package_identity": "swift-dependencies",
+      "product_memberships": [
+        "DependenciesMacros"
+      ]
+    },
+    {
+      "name": "DependenciesMacrosPlugin",
+      "c99name": "DependenciesMacrosPlugin",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_dependencies//:Sources_DependenciesMacrosPlugin",
+      "package_identity": "swift-dependencies",
+      "product_memberships": [
+        "DependenciesMacros"
+      ]
+    },
+    {
+      "name": "Swift-DocC",
+      "c99name": "Swift_DocC",
+      "src_type": "unknown",
+      "label": "@swiftpkg_swift_docc_plugin//:Plugins_Swift-DocC Convert_Swift-DocC",
+      "package_identity": "swift-docc-plugin",
+      "product_memberships": [
+        "Swift-DocC"
+      ]
+    },
+    {
+      "name": "Swift-DocC Preview",
+      "c99name": "Swift_DocC_Preview",
+      "src_type": "unknown",
+      "label": "@swiftpkg_swift_docc_plugin//:Plugins_Swift-DocC Preview",
+      "package_identity": "swift-docc-plugin",
+      "product_memberships": [
+        "Swift-DocC Preview"
+      ]
+    },
+    {
+      "name": "Snippets",
+      "c99name": "Snippets",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_docc_plugin//:Sources_Snippets",
+      "package_identity": "swift-docc-plugin",
+      "product_memberships": [
+        "Swift-DocC",
+        "Swift-DocC Preview"
+      ]
+    },
+    {
+      "name": "snippet-extract",
+      "c99name": "snippet_extract",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_docc_plugin//:Sources_snippet-extract",
+      "package_identity": "swift-docc-plugin",
+      "product_memberships": [
+        "Swift-DocC",
+        "Swift-DocC Preview"
+      ]
+    },
+    {
+      "name": "SymbolKit",
+      "c99name": "SymbolKit",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_docc_symbolkit//:Sources_SymbolKit",
+      "package_identity": "swift-docc-symbolkit",
+      "product_memberships": [
+        "SymbolKit"
+      ]
+    },
+    {
+      "name": "IdentifiedCollections",
+      "c99name": "IdentifiedCollections",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_identified_collections//:Sources_IdentifiedCollections",
+      "package_identity": "swift-identified-collections",
+      "product_memberships": [
+        "IdentifiedCollections"
+      ]
+    },
+    {
+      "name": "MacroTesting",
+      "c99name": "MacroTesting",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_macro_testing//:Sources_MacroTesting",
+      "package_identity": "swift-macro-testing",
+      "product_memberships": [
+        "MacroTesting"
+      ]
+    },
+    {
+      "name": "InlineSnapshotTesting",
+      "c99name": "InlineSnapshotTesting",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_snapshot_testing//:Sources_InlineSnapshotTesting",
+      "package_identity": "swift-snapshot-testing",
+      "product_memberships": [
+        "InlineSnapshotTesting"
+      ]
+    },
+    {
+      "name": "SnapshotTesting",
+      "c99name": "SnapshotTesting",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_snapshot_testing//:Sources_SnapshotTesting",
+      "modulemap_label": "@swiftpkg_swift_snapshot_testing//:Sources_SnapshotTesting_modulemap",
+      "package_identity": "swift-snapshot-testing",
+      "product_memberships": [
+        "SnapshotTesting",
+        "InlineSnapshotTesting"
+      ]
+    },
+    {
+      "name": "SwiftBasicFormat",
+      "c99name": "SwiftBasicFormat",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftBasicFormat",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftBasicFormat",
+        "SwiftCompilerPlugin",
+        "SwiftCompilerPluginMessageHandling",
+        "SwiftParserDiagnostics",
+        "SwiftRefactor",
+        "SwiftSyntaxBuilder",
+        "SwiftSyntaxMacros",
+        "SwiftSyntaxMacroExpansion",
+        "SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "name": "SwiftCompilerPlugin",
+      "c99name": "SwiftCompilerPlugin",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftCompilerPlugin",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftCompilerPlugin"
+      ]
+    },
+    {
+      "name": "SwiftCompilerPluginMessageHandling",
+      "c99name": "SwiftCompilerPluginMessageHandling",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftCompilerPluginMessageHandling",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftCompilerPlugin",
+        "SwiftCompilerPluginMessageHandling"
+      ]
+    },
+    {
+      "name": "SwiftDiagnostics",
+      "c99name": "SwiftDiagnostics",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftDiagnostics",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftCompilerPlugin",
+        "SwiftCompilerPluginMessageHandling",
+        "SwiftDiagnostics",
+        "SwiftOperators",
+        "SwiftParserDiagnostics",
+        "SwiftRefactor",
+        "SwiftSyntaxBuilder",
+        "SwiftSyntaxMacros",
+        "SwiftSyntaxMacroExpansion",
+        "SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "name": "SwiftIDEUtils",
+      "c99name": "SwiftIDEUtils",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftIDEUtils",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftIDEUtils"
+      ]
+    },
+    {
+      "name": "SwiftOperators",
+      "c99name": "SwiftOperators",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftOperators",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftCompilerPlugin",
+        "SwiftCompilerPluginMessageHandling",
+        "SwiftOperators",
+        "SwiftSyntaxMacroExpansion",
+        "SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "name": "SwiftParser",
+      "c99name": "SwiftParser",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftParser",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftCompilerPlugin",
+        "SwiftCompilerPluginMessageHandling",
+        "SwiftOperators",
+        "SwiftParser",
+        "SwiftParserDiagnostics",
+        "SwiftRefactor",
+        "SwiftSyntaxBuilder",
+        "SwiftSyntaxMacros",
+        "SwiftSyntaxMacroExpansion",
+        "SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "name": "SwiftParserDiagnostics",
+      "c99name": "SwiftParserDiagnostics",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftParserDiagnostics",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftCompilerPlugin",
+        "SwiftCompilerPluginMessageHandling",
+        "SwiftParserDiagnostics",
+        "SwiftRefactor",
+        "SwiftSyntaxBuilder",
+        "SwiftSyntaxMacros",
+        "SwiftSyntaxMacroExpansion",
+        "SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "name": "SwiftRefactor",
+      "c99name": "SwiftRefactor",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftRefactor",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftRefactor"
+      ]
+    },
+    {
+      "name": "SwiftSyntax",
+      "c99name": "SwiftSyntax",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftSyntax",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftBasicFormat",
+        "SwiftCompilerPlugin",
+        "SwiftCompilerPluginMessageHandling",
+        "SwiftDiagnostics",
+        "SwiftIDEUtils",
+        "SwiftOperators",
+        "SwiftParser",
+        "SwiftParserDiagnostics",
+        "SwiftRefactor",
+        "SwiftSyntax",
+        "SwiftSyntaxBuilder",
+        "SwiftSyntaxMacros",
+        "SwiftSyntaxMacroExpansion",
+        "SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "name": "SwiftSyntax509",
+      "c99name": "SwiftSyntax509",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftSyntax509",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftBasicFormat",
+        "SwiftCompilerPlugin",
+        "SwiftCompilerPluginMessageHandling",
+        "SwiftDiagnostics",
+        "SwiftIDEUtils",
+        "SwiftOperators",
+        "SwiftParser",
+        "SwiftParserDiagnostics",
+        "SwiftRefactor",
+        "SwiftSyntax",
+        "SwiftSyntaxBuilder",
+        "SwiftSyntaxMacros",
+        "SwiftSyntaxMacroExpansion",
+        "SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "name": "SwiftSyntaxBuilder",
+      "c99name": "SwiftSyntaxBuilder",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftSyntaxBuilder",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftCompilerPlugin",
+        "SwiftCompilerPluginMessageHandling",
+        "SwiftRefactor",
+        "SwiftSyntaxBuilder",
+        "SwiftSyntaxMacros",
+        "SwiftSyntaxMacroExpansion",
+        "SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "name": "SwiftSyntaxMacroExpansion",
+      "c99name": "SwiftSyntaxMacroExpansion",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftSyntaxMacroExpansion",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftCompilerPlugin",
+        "SwiftCompilerPluginMessageHandling",
+        "SwiftSyntaxMacroExpansion",
+        "SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "name": "SwiftSyntaxMacros",
+      "c99name": "SwiftSyntaxMacros",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftSyntaxMacros",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftCompilerPlugin",
+        "SwiftCompilerPluginMessageHandling",
+        "SwiftSyntaxMacros",
+        "SwiftSyntaxMacroExpansion",
+        "SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "name": "SwiftSyntaxMacrosTestSupport",
+      "c99name": "SwiftSyntaxMacrosTestSupport",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources_SwiftSyntaxMacrosTestSupport",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "name": "_SwiftSyntaxTestSupport",
+      "c99name": "_SwiftSyntaxTestSupport",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_syntax//:Sources__SwiftSyntaxTestSupport",
+      "package_identity": "swift-syntax",
+      "product_memberships": [
+        "SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "name": "SwiftUINavigation",
+      "c99name": "SwiftUINavigation",
+      "src_type": "swift",
+      "label": "@swiftpkg_swiftui_navigation//:Sources_SwiftUINavigation",
+      "package_identity": "swiftui-navigation",
+      "product_memberships": [
+        "SwiftUINavigation"
+      ]
+    },
+    {
+      "name": "SwiftUINavigationCore",
+      "c99name": "SwiftUINavigationCore",
+      "src_type": "swift",
+      "label": "@swiftpkg_swiftui_navigation//:Sources_SwiftUINavigationCore",
+      "package_identity": "swiftui-navigation",
+      "product_memberships": [
+        "SwiftUINavigation",
+        "SwiftUINavigationCore"
+      ]
+    },
+    {
+      "name": "XCTestDynamicOverlay",
+      "c99name": "XCTestDynamicOverlay",
+      "src_type": "swift",
+      "label": "@swiftpkg_xctest_dynamic_overlay//:Sources_XCTestDynamicOverlay",
+      "package_identity": "xctest-dynamic-overlay",
+      "product_memberships": [
+        "XCTestDynamicOverlay"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "identity": "combine-schedulers",
+      "name": "CombineSchedulers",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_combine_schedulers//:Sources_CombineSchedulers"
+      ]
+    },
+    {
+      "identity": "swift-argument-parser",
+      "name": "ArgumentParser",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_argument_parser//:Sources_ArgumentParser"
+      ]
+    },
+    {
+      "identity": "swift-argument-parser",
+      "name": "GenerateManual",
+      "type": "plugin",
+      "target_labels": [
+        "@swiftpkg_swift_argument_parser//:Plugins_GenerateManual"
+      ]
+    },
+    {
+      "identity": "swift-benchmark",
+      "name": "Benchmark",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_benchmark//:Sources_Benchmark"
+      ]
+    },
+    {
+      "identity": "swift-case-paths",
+      "name": "CasePaths",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_case_paths//:Sources_CasePaths"
+      ]
+    },
+    {
+      "identity": "swift-clocks",
+      "name": "Clocks",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_clocks//:Sources_Clocks"
+      ]
+    },
+    {
+      "identity": "swift-collections",
+      "name": "Collections",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_collections//:Sources_Collections"
+      ]
+    },
+    {
+      "identity": "swift-collections",
+      "name": "DequeModule",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_collections//:Sources_DequeModule"
+      ]
+    },
+    {
+      "identity": "swift-collections",
+      "name": "OrderedCollections",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_collections//:Sources_OrderedCollections"
+      ]
+    },
+    {
+      "identity": "swift-concurrency-extras",
+      "name": "ConcurrencyExtras",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_concurrency_extras//:Sources_ConcurrencyExtras"
+      ]
+    },
+    {
+      "identity": "swift-custom-dump",
+      "name": "CustomDump",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_custom_dump//:Sources_CustomDump"
+      ]
+    },
+    {
+      "identity": "swift-dependencies",
+      "name": "Dependencies",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_dependencies//:Sources_Dependencies"
+      ]
+    },
+    {
+      "identity": "swift-dependencies",
+      "name": "DependenciesMacros",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_dependencies//:Sources_DependenciesMacros"
+      ]
+    },
+    {
+      "identity": "swift-docc-plugin",
+      "name": "Swift-DocC",
+      "type": "plugin",
+      "target_labels": [
+        "@swiftpkg_swift_docc_plugin//:Plugins_Swift-DocC Convert_Swift-DocC"
+      ]
+    },
+    {
+      "identity": "swift-docc-plugin",
+      "name": "Swift-DocC Preview",
+      "type": "plugin",
+      "target_labels": [
+        "@swiftpkg_swift_docc_plugin//:Plugins_Swift-DocC Preview"
+      ]
+    },
+    {
+      "identity": "swift-docc-symbolkit",
+      "name": "SymbolKit",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_docc_symbolkit//:Sources_SymbolKit"
+      ]
+    },
+    {
+      "identity": "swift-identified-collections",
+      "name": "IdentifiedCollections",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_identified_collections//:Sources_IdentifiedCollections"
+      ]
+    },
+    {
+      "identity": "swift-macro-testing",
+      "name": "MacroTesting",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_macro_testing//:Sources_MacroTesting"
+      ]
+    },
+    {
+      "identity": "swift-snapshot-testing",
+      "name": "InlineSnapshotTesting",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_snapshot_testing//:Sources_InlineSnapshotTesting"
+      ]
+    },
+    {
+      "identity": "swift-snapshot-testing",
+      "name": "SnapshotTesting",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_snapshot_testing//:Sources_SnapshotTesting"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftBasicFormat",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftBasicFormat"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftCompilerPlugin",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftCompilerPlugin"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftCompilerPluginMessageHandling",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftCompilerPluginMessageHandling"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftDiagnostics",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftDiagnostics"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftIDEUtils",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftIDEUtils"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftOperators",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftOperators"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftParser",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftParser"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftParserDiagnostics",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftParserDiagnostics"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftRefactor",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftRefactor"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftSyntax",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftSyntax"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftSyntaxBuilder",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftSyntaxBuilder"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftSyntaxMacroExpansion",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftSyntaxMacroExpansion"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftSyntaxMacros",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftSyntaxMacros"
+      ]
+    },
+    {
+      "identity": "swift-syntax",
+      "name": "SwiftSyntaxMacrosTestSupport",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swift_syntax//:Sources_SwiftSyntaxMacrosTestSupport"
+      ]
+    },
+    {
+      "identity": "swiftui-navigation",
+      "name": "SwiftUINavigation",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swiftui_navigation//:Sources_SwiftUINavigation"
+      ]
+    },
+    {
+      "identity": "swiftui-navigation",
+      "name": "SwiftUINavigationCore",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swiftui_navigation//:Sources_SwiftUINavigationCore"
+      ]
+    },
+    {
+      "identity": "xctest-dynamic-overlay",
+      "name": "XCTestDynamicOverlay",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_xctest_dynamic_overlay//:Sources_XCTestDynamicOverlay"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "name": "swiftpkg_combine_schedulers",
+      "identity": "combine-schedulers",
+      "remote": {
+        "commit": "9dc9cbe4bc45c65164fa653a563d8d8db61b09bb",
+        "remote": "https://github.com/pointfreeco/combine-schedulers",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_argument_parser",
+      "identity": "swift-argument-parser",
+      "remote": {
+        "commit": "c8ed701b513cf5177118a175d85fbbbcd707ab41",
+        "remote": "https://github.com/apple/swift-argument-parser",
+        "version": "1.3.0"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_benchmark",
+      "identity": "swift-benchmark",
+      "remote": {
+        "commit": "8163295f6fe82356b0bcf8e1ab991645de17d096",
+        "remote": "https://github.com/google/swift-benchmark",
+        "version": "0.1.2"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_case_paths",
+      "identity": "swift-case-paths",
+      "remote": {
+        "commit": "bba1111185863c9288c5f047770f421c3b7793a4",
+        "remote": "https://github.com/pointfreeco/swift-case-paths",
+        "version": "1.1.3"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_clocks",
+      "identity": "swift-clocks",
+      "remote": {
+        "commit": "a8421d68068d8f45fbceb418fbf22c5dad4afd33",
+        "remote": "https://github.com/pointfreeco/swift-clocks",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_collections",
+      "identity": "swift-collections",
+      "remote": {
+        "commit": "a902f1823a7ff3c9ab2fba0f992396b948eda307",
+        "remote": "https://github.com/apple/swift-collections",
+        "version": "1.0.5"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_concurrency_extras",
+      "identity": "swift-concurrency-extras",
+      "remote": {
+        "commit": "bb5059bde9022d69ac516803f4f227d8ac967f71",
+        "remote": "https://github.com/pointfreeco/swift-concurrency-extras",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_custom_dump",
+      "identity": "swift-custom-dump",
+      "remote": {
+        "commit": "aedcf6f4cd486ccef5b312ccac85d4b3f6e58605",
+        "remote": "https://github.com/pointfreeco/swift-custom-dump",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_dependencies",
+      "identity": "swift-dependencies",
+      "remote": {
+        "commit": "c31b1445c4fae49e6fdb75496b895a3653f6aefc",
+        "remote": "https://github.com/pointfreeco/swift-dependencies",
+        "version": "1.1.5"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_docc_plugin",
+      "identity": "swift-docc-plugin",
+      "remote": {
+        "commit": "26ac5758409154cc448d7ab82389c520fa8a8247",
+        "remote": "https://github.com/apple/swift-docc-plugin",
+        "version": "1.3.0"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_docc_symbolkit",
+      "identity": "swift-docc-symbolkit",
+      "remote": {
+        "commit": "b45d1f2ed151d057b54504d653e0da5552844e34",
+        "remote": "https://github.com/apple/swift-docc-symbolkit",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_identified_collections",
+      "identity": "swift-identified-collections",
+      "remote": {
+        "commit": "d1e45f3e1eee2c9193f5369fa9d70a6ddad635e8",
+        "remote": "https://github.com/pointfreeco/swift-identified-collections",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_macro_testing",
+      "identity": "swift-macro-testing",
+      "remote": {
+        "commit": "10dcef36314ddfea6f60442169b0b320204cbd35",
+        "remote": "https://github.com/pointfreeco/swift-macro-testing",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_snapshot_testing",
+      "identity": "swift-snapshot-testing",
+      "remote": {
+        "commit": "59b663f68e69f27a87b45de48cb63264b8194605",
+        "remote": "https://github.com/pointfreeco/swift-snapshot-testing",
+        "version": "1.15.1"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_syntax",
+      "identity": "swift-syntax",
+      "remote": {
+        "commit": "6ad4ea24b01559dde0773e3d091f1b9e36175036",
+        "remote": "https://github.com/apple/swift-syntax",
+        "version": "509.0.2"
+      }
+    },
+    {
+      "name": "swiftpkg_swiftui_navigation",
+      "identity": "swiftui-navigation",
+      "remote": {
+        "commit": "78f9d72cf667adb47e2040aa373185c88c63f0dc",
+        "remote": "https://github.com/pointfreeco/swiftui-navigation",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "swiftpkg_xctest_dynamic_overlay",
+      "identity": "xctest-dynamic-overlay",
+      "remote": {
+        "commit": "23cbf2294e350076ea4dbd7d5d047c1e76b03631",
+        "remote": "https://github.com/pointfreeco/xctest-dynamic-overlay",
+        "version": "1.0.2"
+      }
+    }
+  ]
+}
