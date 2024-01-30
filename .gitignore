@@ -1,7 +1,8 @@
 .DS_Store
-/.build
+.build
 /.swiftpm
 /Packages
 /*.swiftinterface
 /*.xcodeproj
 xcuserdata/
+bazel-*
