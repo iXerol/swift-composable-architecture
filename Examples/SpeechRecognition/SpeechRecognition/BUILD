@@ -1,7 +1,11 @@
 load("@rules_swift//swift:swift.bzl","swift_library")
 load("@rules_apple//apple:ios.bzl","ios_application")
 load("@rules_apple//apple:versioning.bzl","apple_bundle_version")
-
+load(
+    "@rules_xcodeproj//xcodeproj:defs.bzl",
+    "top_level_target",
+    "xcodeproj",
+)
 package(default_visibility = [":__pkg__"])
 
 swift_library(
@@ -43,4 +47,14 @@ ios_application(
         ":SpeechRecognition",
     ],
     visibility = ["//visibility:public"],
+)
+
+xcodeproj(
+    name = "xcodeproj",
+    project_name = "SpeechRecognition_app",
+    tags = ["manual"],
+    top_level_targets = [
+        top_level_target("//Examples/SpeechRecognition/SpeechRecognition:SpeechRecognition_app", target_environments = ["simulator"]),
+    ],
+    build_mode = "bazel",
 )
