@@ -3,6 +3,6 @@
 /.swiftpm
 /Packages
 /*.swiftinterface
-/*.xcodeproj
+*.xcodeproj
 xcuserdata/
 bazel-*
