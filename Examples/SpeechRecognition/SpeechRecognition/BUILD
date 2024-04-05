@@ -1,6 +1,8 @@
 load("@rules_swift//swift:swift.bzl","swift_library")
 load("@rules_apple//apple:ios.bzl","ios_application")
 load("@rules_apple//apple:versioning.bzl","apple_bundle_version")
+load("@rules_apple//apple:apple.bzl", "local_provisioning_profile")
+
 load(
     "@rules_xcodeproj//xcodeproj:defs.bzl",
     "top_level_target",
@@ -28,6 +30,12 @@ apple_bundle_version(
     short_version_string = "1.0",
 )
 
+local_provisioning_profile(
+    name = "debug_profile",
+    profile_name = "Development App",
+    team_id = "52892NMS89",
+)
+
 ios_application(
     name = "SpeechRecognition_app",
     bundle_id = "co.pointfree.SpeechRecognition",
@@ -47,6 +55,7 @@ ios_application(
         ":SpeechRecognition",
     ],
     visibility = ["//visibility:public"],
+    provisioning_profile = ":debug_profile",
 )
 
 xcodeproj(

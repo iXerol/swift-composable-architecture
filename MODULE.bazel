@@ -9,6 +9,14 @@ bazel_dep(name = "rules_swift_package_manager", version = "0.25.0")
 bazel_dep(name = "rules_xcodeproj", version = "1.16.0")
 bazel_dep(name = "apple_support", version = "1.11.1")
 bazel_dep(name = "gazelle", version = "0.35.0", repo_name = "bazel_gazelle")
+
+bazel_dep(name = "bis", version = "0.4.1", dev_dependency = True)
+archive_override(
+    module_name = "bis",
+    urls = "https://github.com/ixerol/bis/archive/refs/tags/0.4.1.tar.gz",
+    strip_prefix = "bis-0.4.1"
+)
+
 # swift_deps START
 swift_deps = use_extension(
     "@rules_swift_package_manager//:extensions.bzl",
